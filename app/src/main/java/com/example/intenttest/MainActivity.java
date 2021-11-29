@@ -39,6 +39,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+
+    // добавить метод вызывающий интент для камеры
+
     public void onClick(View view) {
         Intent intent = new Intent(ACTION);
         EditText eText = findViewById(R.id.et_input);
