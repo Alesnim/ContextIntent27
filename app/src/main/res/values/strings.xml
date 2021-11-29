@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">IntentTest</string>
+    <string name="another">To another activity</string>
+</resources>
