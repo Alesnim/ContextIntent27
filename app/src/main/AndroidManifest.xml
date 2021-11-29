@@ -10,18 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".SecondActivity">
-            <intent-filter>
-                <action android:name="com.example.intenttest.SHOW_SECOND_ACTIVITY" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
         </activity>
-        <activity android:name=".Extend">
+        <activity android:name=".Extend"
+            android:exported="true">
             <intent-filter>
                 <action android:name="com.example.intenttest.SHOW_EXTEND_ACTIVITY" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
